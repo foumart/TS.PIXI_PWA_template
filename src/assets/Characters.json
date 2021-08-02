@@ -1,0 +1,112 @@
+{"frames": {
+
+"bunny_0.gif":
+{
+	"frame": {"x":1,"y":177,"w":24,"h":21},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":24,"h":21},
+	"sourceSize": {"w":24,"h":24}
+},
+"bunny_1.gif":
+{
+	"frame": {"x":1,"y":245,"w":24,"h":19},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":5,"w":24,"h":19},
+	"sourceSize": {"w":24,"h":24}
+},
+"bunny_2.gif":
+{
+	"frame": {"x":1,"y":105,"w":24,"h":22},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":24,"h":22},
+	"sourceSize": {"w":24,"h":24}
+},
+"bunny_3.gif":
+{
+	"frame": {"x":1,"y":266,"w":24,"h":19},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":19},
+	"sourceSize": {"w":24,"h":24}
+},
+"bunny_4.gif":
+{
+	"frame": {"x":1,"y":129,"w":24,"h":22},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":24,"h":22},
+	"sourceSize": {"w":24,"h":24}
+},
+"bunny_5.gif":
+{
+	"frame": {"x":1,"y":200,"w":24,"h":21},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":24,"h":21},
+	"sourceSize": {"w":24,"h":24}
+},
+"kitten_0.gif":
+{
+	"frame": {"x":1,"y":153,"w":24,"h":22},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":24,"h":22},
+	"sourceSize": {"w":24,"h":24}
+},
+"kitten_1.gif":
+{
+	"frame": {"x":1,"y":1,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"kitten_2.gif":
+{
+	"frame": {"x":1,"y":27,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"kitten_3.gif":
+{
+	"frame": {"x":1,"y":223,"w":24,"h":20},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":20},
+	"sourceSize": {"w":24,"h":24}
+},
+"kitten_4.gif":
+{
+	"frame": {"x":1,"y":53,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"kitten_5.gif":
+{
+	"frame": {"x":1,"y":79,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+}},
+"animations": {
+	"bunny": ["bunny_0.gif","bunny_1.gif","bunny_2.gif","bunny_3.gif","bunny_4.gif","bunny_5.gif"],
+	"kitten": ["kitten_0.gif","kitten_1.gif","kitten_2.gif","kitten_3.gif","kitten_4.gif","kitten_5.gif"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "Characters.png",
+	"format": "RGBA8888",
+	"size": {"w":26,"h":286},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:89ccfb6b8573321fd94c90d7e279ccc6:4cb47d59c7eb70355cdf3b459dbe8350:78f5cb85136f56011bdfdc1239f9a678$"
+}
+}

@@ -1,0 +1,28 @@
+{
+	"name": "{TITLE}",
+	"short_name": "{TITLE}",
+	"start_url": "index.html",
+	"serviceworker": {
+		"src": "serviceworker.js"
+	},
+	"icons": [
+		{
+			"src": "ico_224.png",
+			"type": "image/png",
+			"sizes": "224x224"
+		},
+		{
+			"src": "ico_192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "ico_180.png",
+			"type": "image/png",
+			"sizes": "180x180"
+		}
+	],
+	"bckground_color": "#ddd8c1",
+	"display": "fullscreen",
+	"orientation": "landscape"
+}

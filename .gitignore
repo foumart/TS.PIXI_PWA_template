@@ -1,0 +1,9 @@
+node_modules
+dist/*
+dev/*
+.cache
+.env
+.vscode
+.husky
+.github
+.git
