@@ -10,7 +10,7 @@ let gameHeight = 1024;
 console.log(`PIXI-PWA ${VERSION}`);
 
 const app = new PIXI.Application({
-    backgroundColor: 0x111111,
+    backgroundColor: 0x555555,
     backgroundAlpha: 0,
     width: gameWidth,
     height: gameHeight
