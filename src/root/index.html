@@ -1,50 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=0" />
 
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<meta charset="UTF-8">
-	<meta name="viewport"
-		content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=0" />
+        <title>{TITLE}</title>
 
-	<title>{TITLE}</title>
+        <meta name="application-name" content="{TITLE}" />
+        <meta name="description" content="{DESCRIPTION}" />
+        <meta name="keywords" content="{KEYWORDS}" />
 
-	<meta name="application-name" content="{TITLE}" />
-	<meta name="description" content="" />
-	<meta name="keywords" content="" />
+        <meta name="copyright" content="{COPYRIGHT}" />
+        <meta name="author" content="{AUTHOR}" />
 
-	<meta name="copyright" content="Copyright © 2021 by Noncho Savov. All Rights Reserved." />
-	<meta name="designer" content="Noncho Savov" />
-	<meta name="author" content="Noncho Savov (FoumartGames), inthewoodsbg (at) gmail.com" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 
-	<meta name="apple-mobile-web-app-capable" content="yes" />
-	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <link rel="apple-touch-icon" sizes="180x180" href="ico_180.png" />
+        <link rel="icon" type="image/png" sizes="any" href="ico_180.png" />
+        <link rel="manifest" href="mf.webmanifest" />
 
-	<link rel="apple-touch-icon" sizes="180x180" href="ico_180.png">
-	<link rel="icon" type="image/png" sizes="any" href="ico_180.png">
-	<link rel="manifest" href="mf.webmanifest">
+        <!-- build:pwa -->
+        <!-- scripts from src/root/ will be inlined here by the gulp build process -->
+        <!-- endbuild -->
 
-	<!-- build:pwa -->
-	<!-- script will be embedded in html by gulp -->
-	<script src="init_pwa.js"></script>
-	<!-- endbuild -->
+        <!-- build:css -->
+        <!-- styles from src/root/ will be inlined here by the gulp build process -->
+        <!-- endbuild -->
+    </head>
 
-	<!-- build:css -->
-	<!-- css will be embedded in html by gulp -->
-	<link rel="stylesheet" href="style.css">
-	<!-- endbuild -->
+    <body class="_main-unselectable">
+        <div id="_main_debug" class="_main-dimensions" style="top: 0; display: none"></div>
 
-</head>
-
-<body class="_main-unselectable">
-
-	<div id="_main_debug" class="_main-dimensions" style="top: 0; display: none;"></div>
-
-	<div id="_loading" class="_main-loading">
-		<div id="_loadingframe" class="_main-loading-frame"></div>
-		<div id="_loadingbar" class="_main-loading-bar"></div>
-	</div>
-
-</body>
-
+        <div id="_loading" class="_main-loading">
+            <div id="_loadingframe" class="_main-loading-frame"></div>
+            <div id="_loadingbar" class="_main-loading-bar"></div>
+        </div>
+    </body>
 </html>
