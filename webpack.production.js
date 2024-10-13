@@ -6,7 +6,6 @@ const path = require("path");
 const fileSystem = require("fs");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const OptimizeCssAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 const RemovePlugin = require('remove-files-webpack-plugin');
 
 const pkg = JSON.parse(fileSystem.readFileSync(path.join(__dirname, "package.json"), "utf-8"));
@@ -60,15 +59,6 @@ module.exports = (env) => {
 
 			new MiniCssExtractPlugin({
 				filename: "[name].[contenthash].css",
-			}),
-
-			new OptimizeCssAssetsPlugin({
-				assetNameRegExp: /\.css$/i,
-				cssProcessor: require("cssnano"),
-				cssProcessorPluginOptions: {
-					preset: ["default", { discardComments: { removeAll: true } }],
-				},
-				canPrint: true,
 			}),
 
 			new webpack.DefinePlugin({
